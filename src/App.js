@@ -10,7 +10,7 @@ function App() {
     <div className="wrap">
       <div className="info">
         <div className="title">
-          Personal Project Playground
+          Personal Toy Project Playground
         </div>
         <div className="about">
           <div>
