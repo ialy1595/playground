@@ -17,33 +17,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.title {
-  font-size: 2.5rem;
-}
-
-.about {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.about > div {
-  font-size: 1.5rem;
-  margin: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.about > div > a {
-  text-decoration: none;
+  margin-bottom: 3rem;
 }
 
 .blog-image {
-    width: 2rem;
-    height: 2rem;
+    width: 1em;
+    height: 1em;
     object-fit: cover;
 }
