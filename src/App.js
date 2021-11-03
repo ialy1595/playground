@@ -6,6 +6,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import eng2music from './images/eng2music.jpg';
 import npm from './images/npm.png';
+import kouku from './images/kouku.jpg';
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
@@ -29,6 +30,12 @@ function App() {
       description: "Improved indexOf function for incremental search in Korean.",
       image: npm,
       src: "https://www.npmjs.com/package/korean-index-of",
+    },
+    {
+      title: "kouku-saton bingo",
+      description: "Kouku-saton bingo recommendation for LOSTARK",
+      image: kouku,
+      src: "https://ialy1595.me/kouku",
     },
   ]
 
@@ -69,7 +76,7 @@ function App() {
                   style={{paddingTop: '100%'}}
                 />
                 <CardContent>
-                  <Typography variant='h4' color='textPrimary' gutterBottom>
+                  <Typography variant='h5' color='textPrimary' gutterBottom>
                     {p.title}
                   </Typography>
                   <Typography variant='body1' color='textSecondary'>
